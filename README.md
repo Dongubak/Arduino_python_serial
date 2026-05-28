@@ -1,3 +1,3 @@
 ## 구글 드라이브 링크
-- 1일차 교육자료 : https://drive.google.com/file/d/156Jl2FkkjZ5PMfE_7yxJCPyao-ASCFkK/view
-- 2일차 교육자료 : https://drive.google.com/file/d/1ptEPFcKNS1yIUXeNka2Hnz9u83Gp3rsJ/view
+- 1일차 교육자료 : https://drive.google.com/file/d/1loMWE9kNoRTHxcNCHVAf9dwfZHMrTR59/view?usp=sharing
+- 2일차 교육자료 : https://drive.google.com/file/d/1i5trCvhpEbyzUeSf5_swxnlJy6Hj5ta1/view?usp=sharing
