@@ -115,7 +115,7 @@ def parse_input(raw: str):
 
 # ===== 메인 =====
 if __name__ == "__main__":
-    PORT = "/dev/tty.usbmodem11301"       # Windows: COMx / Mac·Linux: /dev/ttyUSB0
+    PORT = "/dev/tty.usbmodem114201"       # Windows: COMx / Mac·Linux: /dev/ttyUSB0
     BAUD = 115200
 
     print("=" * 45)

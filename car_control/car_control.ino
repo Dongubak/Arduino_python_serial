@@ -27,12 +27,12 @@
 #define POT_PIN A0 // 조향 피드백 퍼텐셜미터
 
 // ===== 조향 제어 파라미터 =====
-const int STEER_LEFT    = 590; // 좌측 한계 목표 (실측 602 안쪽 여유)
-const int STEER_RIGHT   = 440; // 우측 한계 목표 (실측 424 안쪽 여유)
-const int STEER_NEUTRAL = 526; // 중립
+const int STEER_LEFT    = 572; // 좌측 한계 목표 (실측 602 안쪽 여유)
+const int STEER_RIGHT   = 398; // 우측 한계 목표 (실측 424 안쪽 여유)
+const int STEER_NEUTRAL = 487; // 중립
 const int STEER_DEADBAND = 25; // 유격 폭 50의 절반 → 백래시 떨림 방지
-const int STEER_MIN_PWM = 80;  // 정지 마찰 극복용 최소 PWM
-const int STEER_MAX_PWM = 200; // 과부하 방지용 최대 PWM
+const int STEER_MIN_PWM = 200;  // 정지 마찰 극복용 최소 PWM
+const int STEER_MAX_PWM = 300; // 과부하 방지용 최대 PWM
 const float STEER_KP    = 1.2; // 비례 게인
 const int STEER_DIR_SIGN = 0;  // 반대로 폭주하면 1 로 변경
 
@@ -78,8 +78,8 @@ void motorsForward(int speed)
 {
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
-  digitalWrite(IN3, HIGH);
-  digitalWrite(IN4, LOW);
+  digitalWrite(IN3, LOW);
+  digitalWrite(IN4, HIGH);
   analogWrite(ENA, speed);
   analogWrite(ENB, speed);
 }
@@ -87,8 +87,8 @@ void motorsReverse(int speed)
 {
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, LOW);
-  digitalWrite(IN4, HIGH);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
   analogWrite(ENA, speed);
   analogWrite(ENB, speed);
 }

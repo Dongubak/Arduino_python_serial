@@ -17,12 +17,12 @@
 #define POT_PIN A0 // 피드백 퍼텐셜미터
 
 // ----- 제어 파라미터 -----
-const int POT_LEFT    = 627;  // 좌측 목표 (실측 602 안쪽 여유)
-const int POT_NEUTRAL = 526;  // 중립
-const int POT_RIGHT   = 399;  // 우측 목표 (실측 424 안쪽 여유)
+const int POT_LEFT    = 572;  // 좌측 목표 (실측 602 안쪽 여유)
+const int POT_NEUTRAL = 487;  // 중립
+const int POT_RIGHT   = 398;  // 우측 목표 (실측 424 안쪽 여유)
 const int DEADBAND    = 25;   // 유격 폭 50의 절반 → 백래시 떨림 방지
-const int MIN_PWM     = 80;   // 정지 마찰 극복용 최소 PWM (안 움직이면 키움)
-const int MAX_PWM     = 200;  // 과부하 방지용 최대 PWM
+const int MIN_PWM     = 200;   // 정지 마찰 극복용 최소 PWM (안 움직이면 키움)
+const int MAX_PWM     = 300;  // 과부하 방지용 최대 PWM
 const float KP        = 1.2;  // 비례 게인
 const int DIR_SIGN    = 0;    // 반대로 폭주하면 1 로 변경
 
