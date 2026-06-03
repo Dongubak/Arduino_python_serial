@@ -642,9 +642,7 @@ ros2 topic echo /lane_heading
 ### 조향 테스트 (차선 인식 + 조향 제어, 모터 구동 없음)
 
 ```bash
-ros2 launch gunsan_drive steering_test.launch.py \
-    cam5_device:=/dev/video4 \
-    serial_port:=/dev/ttyACM0
+ros2 launch gunsan_drive steering_test.launch.py cam6_device:=/dev/video2 serial_port:=/dev/ttyACM0 camera_topic:=/camera6/image_raw
 ```
 
 ---
