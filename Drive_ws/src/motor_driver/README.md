@@ -81,8 +81,7 @@ source install/setup.bash
 ## 실행
 
 ```bash
-ros2 run motor_driver motor_driver_node \
-    --ros-args -p serial_port:=/dev/ttyACM0 -p baud_rate:=115200
+ros2 run motor_driver motor_driver_node
 ```
 
 ### 파라미터
