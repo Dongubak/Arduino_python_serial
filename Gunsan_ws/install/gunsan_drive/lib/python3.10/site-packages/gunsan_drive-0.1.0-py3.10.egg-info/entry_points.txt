@@ -1,0 +1,4 @@
+[console_scripts]
+lane_detector = gunsan_drive.lane_detector_node:main
+steering_controller = gunsan_drive.steering_controller_node:main
+

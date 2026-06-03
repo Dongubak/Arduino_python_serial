@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /home/gardentech -name \"*.py\" -o -name \"*.cpp\" -o -name \"*.launch\" -o -name \"*.yaml\" 2>/dev/null | grep -v \".cache\" | grep -v \".local\" | head -30)",
+      "Read(//home/gardentech/**)",
+      "Bash(pip3 list *)",
+      "Bash(xargs ls -la)",
+      "Bash(dpkg -l)",
+      "Bash(ros2 pkg *)",
+      "Bash(v4l2-ctl --list-devices)",
+      "Bash(xargs cat)",
+      "Bash(mkdir -p /home/gardentech/Gunsan_ws/src/gunsan_drive/gunsan_drive)",
+      "Bash(mkdir -p /home/gardentech/Gunsan_ws/src/gunsan_drive/config)",
+      "Bash(mkdir -p /home/gardentech/Gunsan_ws/src/gunsan_drive/launch)",
+      "Bash(mkdir -p /home/gardentech/Gunsan_ws/src/gunsan_drive/resource)",
+      "Bash(mkdir -p /home/gardentech/.claude/projects/-home-gardentech-Gunsan-ws/memory && echo \"ok\")",
+      "Bash(ln -s /home/gardentech/Drive_ws/src/motor_driver /home/gardentech/Gunsan_ws/src/motor_driver)",
+      "Bash(ls /dev/ttyACM* 2>/dev/null && echo \"---\" && grep \"serial_port\" /home/gardentech/Gunsan_ws/src/gunsan_drive/launch/steering_test.launch.py)",
+      "Read(//dev/**)",
+      "Bash(colcon build *)",
+      "Bash(mkdir -p /home/gardentech/Drive_ws/.source/latest/Arduino_python_serial/car_control_v2)"
+    ],
+    "additionalDirectories": [
+      "/home/gardentech/.claude/projects/-home-gardentech-Gunsan-ws",
+      "/home/gardentech/Drive_ws/.source/latest/Arduino_python_serial"
+    ]
+  }
+}

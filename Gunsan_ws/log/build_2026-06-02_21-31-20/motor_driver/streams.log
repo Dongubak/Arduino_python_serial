@@ -1,0 +1,37 @@
+[0.889s] Invoking command in '/home/gardentech/Gunsan_ws/src/motor_driver': PYTHONPATH=/home/gardentech/Gunsan_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Gunsan_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../Gunsan_ws/build/motor_driver build --build-base /home/gardentech/Gunsan_ws/build/motor_driver/build install --record /home/gardentech/Gunsan_ws/build/motor_driver/install.log --single-version-externally-managed install_data
+[1.128s] running egg_info
+[1.128s] creating ../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info
+[1.128s] writing ../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info/PKG-INFO
+[1.128s] writing dependency_links to ../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info/dependency_links.txt
+[1.128s] writing entry points to ../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info/entry_points.txt
+[1.128s] writing requirements to ../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info/requires.txt
+[1.128s] writing top-level names to ../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info/top_level.txt
+[1.128s] writing manifest file '../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[1.129s] reading manifest file '../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[1.130s] writing manifest file '../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[1.130s] running build
+[1.130s] running build_py
+[1.130s] creating /home/gardentech/Gunsan_ws/build/motor_driver/build
+[1.130s] creating /home/gardentech/Gunsan_ws/build/motor_driver/build/lib
+[1.130s] creating /home/gardentech/Gunsan_ws/build/motor_driver/build/lib/motor_driver
+[1.130s] copying motor_driver/__init__.py -> /home/gardentech/Gunsan_ws/build/motor_driver/build/lib/motor_driver
+[1.132s] copying motor_driver/motor_driver_node.py -> /home/gardentech/Gunsan_ws/build/motor_driver/build/lib/motor_driver
+[1.132s] running install
+[1.132s] running install_lib
+[1.132s] creating /home/gardentech/Gunsan_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[1.132s] copying /home/gardentech/Gunsan_ws/build/motor_driver/build/lib/motor_driver/__init__.py -> /home/gardentech/Gunsan_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[1.132s] copying /home/gardentech/Gunsan_ws/build/motor_driver/build/lib/motor_driver/motor_driver_node.py -> /home/gardentech/Gunsan_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[1.132s] byte-compiling /home/gardentech/Gunsan_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver/__init__.py to __init__.cpython-310.pyc
+[1.132s] byte-compiling /home/gardentech/Gunsan_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver/motor_driver_node.py to motor_driver_node.cpython-310.pyc
+[1.135s] running install_data
+[1.135s] creating /home/gardentech/Gunsan_ws/install/motor_driver/share/ament_index
+[1.135s] creating /home/gardentech/Gunsan_ws/install/motor_driver/share/ament_index/resource_index
+[1.135s] creating /home/gardentech/Gunsan_ws/install/motor_driver/share/ament_index/resource_index/packages
+[1.135s] copying resource/motor_driver -> /home/gardentech/Gunsan_ws/install/motor_driver/share/ament_index/resource_index/packages
+[1.135s] copying package.xml -> /home/gardentech/Gunsan_ws/install/motor_driver/share/motor_driver
+[1.135s] running install_egg_info
+[1.135s] Copying ../../../Gunsan_ws/build/motor_driver/motor_driver.egg-info to /home/gardentech/Gunsan_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.1.0-py3.10.egg-info
+[1.136s] running install_scripts
+[1.155s] Installing motor_driver_node script to /home/gardentech/Gunsan_ws/install/motor_driver/lib/motor_driver
+[1.155s] writing list of installed files to '/home/gardentech/Gunsan_ws/build/motor_driver/install.log'
+[1.177s] Invoked command in '/home/gardentech/Gunsan_ws/src/motor_driver' returned '0': PYTHONPATH=/home/gardentech/Gunsan_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Gunsan_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../Gunsan_ws/build/motor_driver build --build-base /home/gardentech/Gunsan_ws/build/motor_driver/build install --record /home/gardentech/Gunsan_ws/build/motor_driver/install.log --single-version-externally-managed install_data

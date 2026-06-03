@@ -1,0 +1,26 @@
+[0.538s] Invoking command in '/home/gardentech/Gunsan_ws/src/gunsan_drive': PYTHONPATH=/home/gardentech/Gunsan_ws/build/gunsan_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Gunsan_ws/install/gunsan_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gunsan_drive build --build-base /home/gardentech/Gunsan_ws/build/gunsan_drive/build install --record /home/gardentech/Gunsan_ws/build/gunsan_drive/install.log --single-version-externally-managed install_data
+[0.686s] running egg_info
+[0.686s] writing ../../build/gunsan_drive/gunsan_drive.egg-info/PKG-INFO
+[0.686s] writing dependency_links to ../../build/gunsan_drive/gunsan_drive.egg-info/dependency_links.txt
+[0.686s] writing entry points to ../../build/gunsan_drive/gunsan_drive.egg-info/entry_points.txt
+[0.686s] writing requirements to ../../build/gunsan_drive/gunsan_drive.egg-info/requires.txt
+[0.686s] writing top-level names to ../../build/gunsan_drive/gunsan_drive.egg-info/top_level.txt
+[0.687s] reading manifest file '../../build/gunsan_drive/gunsan_drive.egg-info/SOURCES.txt'
+[0.688s] writing manifest file '../../build/gunsan_drive/gunsan_drive.egg-info/SOURCES.txt'
+[0.688s] running build
+[0.688s] running build_py
+[0.688s] copying gunsan_drive/steering_controller_node.py -> /home/gardentech/Gunsan_ws/build/gunsan_drive/build/lib/gunsan_drive
+[0.688s] running install
+[0.688s] running install_lib
+[0.689s] copying /home/gardentech/Gunsan_ws/build/gunsan_drive/build/lib/gunsan_drive/steering_controller_node.py -> /home/gardentech/Gunsan_ws/install/gunsan_drive/lib/python3.10/site-packages/gunsan_drive
+[0.689s] byte-compiling /home/gardentech/Gunsan_ws/install/gunsan_drive/lib/python3.10/site-packages/gunsan_drive/steering_controller_node.py to steering_controller_node.cpython-310.pyc
+[0.690s] running install_data
+[0.690s] copying launch/steering_test.launch.py -> /home/gardentech/Gunsan_ws/install/gunsan_drive/share/gunsan_drive/launch
+[0.690s] running install_egg_info
+[0.691s] removing '/home/gardentech/Gunsan_ws/install/gunsan_drive/lib/python3.10/site-packages/gunsan_drive-0.1.0-py3.10.egg-info' (and everything under it)
+[0.691s] Copying ../../build/gunsan_drive/gunsan_drive.egg-info to /home/gardentech/Gunsan_ws/install/gunsan_drive/lib/python3.10/site-packages/gunsan_drive-0.1.0-py3.10.egg-info
+[0.692s] running install_scripts
+[0.704s] Installing lane_detector script to /home/gardentech/Gunsan_ws/install/gunsan_drive/lib/gunsan_drive
+[0.704s] Installing steering_controller script to /home/gardentech/Gunsan_ws/install/gunsan_drive/lib/gunsan_drive
+[0.704s] writing list of installed files to '/home/gardentech/Gunsan_ws/build/gunsan_drive/install.log'
+[0.727s] Invoked command in '/home/gardentech/Gunsan_ws/src/gunsan_drive' returned '0': PYTHONPATH=/home/gardentech/Gunsan_ws/build/gunsan_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Gunsan_ws/install/gunsan_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gunsan_drive build --build-base /home/gardentech/Gunsan_ws/build/gunsan_drive/build install --record /home/gardentech/Gunsan_ws/build/gunsan_drive/install.log --single-version-externally-managed install_data
