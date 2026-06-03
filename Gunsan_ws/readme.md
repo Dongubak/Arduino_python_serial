@@ -530,7 +530,9 @@ ROI는 **카메라 장착 위치**에 따라 완전히 달라진다.
 # 터미널 1: 시스템 실행
 source /opt/ros/humble/setup.bash
 source ~/Gunsan_ws/install/setup.bash
-ros2 launch gunsan_drive lane_detection.launch.py cam5_device:=/dev/video4
+ros2 launch gunsan_drive lane_detection.launch.py \
+    cam5_device:=/dev/video4 \
+    camera_topic:=/camera5/image_raw
 
 # 터미널 2: 디버그 이미지 뷰어
 ros2 run rqt_image_view rqt_image_view
