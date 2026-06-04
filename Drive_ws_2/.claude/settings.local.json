@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p /home/gardentech/Drive_ws/src/motor_driver/motor_driver)",
+      "Bash(mkdir -p /home/gardentech/Drive_ws/src/motor_driver/resource)"
+    ]
+  }
+}

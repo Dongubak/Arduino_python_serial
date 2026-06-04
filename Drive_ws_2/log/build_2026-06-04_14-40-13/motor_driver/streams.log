@@ -1,0 +1,24 @@
+[0.402s] Invoking command in '/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver': PYTHONPATH=/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build --no-deps symlink_data
+[0.572s] running develop
+[0.680s] running egg_info
+[0.681s] creating motor_driver.egg-info
+[0.681s] writing motor_driver.egg-info/PKG-INFO
+[0.681s] writing dependency_links to motor_driver.egg-info/dependency_links.txt
+[0.681s] writing entry points to motor_driver.egg-info/entry_points.txt
+[0.681s] writing requirements to motor_driver.egg-info/requires.txt
+[0.681s] writing top-level names to motor_driver.egg-info/top_level.txt
+[0.681s] writing manifest file 'motor_driver.egg-info/SOURCES.txt'
+[0.682s] reading manifest file 'motor_driver.egg-info/SOURCES.txt'
+[0.682s] writing manifest file 'motor_driver.egg-info/SOURCES.txt'
+[0.683s] running build_ext
+[0.683s] Creating /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages/motor-driver.egg-link (link to .)
+[0.684s] Installing motor_driver_node script to /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/motor_driver
+[0.684s] 
+[0.684s] Installed /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver
+[0.684s] running symlink_data
+[0.684s] creating /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/share/ament_index
+[0.684s] creating /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/share/ament_index/resource_index
+[0.684s] creating /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/share/ament_index/resource_index/packages
+[0.684s] symbolically linking /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/resource/motor_driver -> /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/share/ament_index/resource_index/packages
+[0.684s] symbolically linking /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/package.xml -> /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/share/motor_driver
+[0.700s] Invoked command in '/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver' returned '0': PYTHONPATH=/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build --no-deps symlink_data

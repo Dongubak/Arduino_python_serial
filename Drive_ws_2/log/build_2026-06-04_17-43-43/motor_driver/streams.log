@@ -1,0 +1,36 @@
+[0.416s] Invoking command in '/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver': PYTHONPATH=/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build
+[0.581s] running develop
+[0.702s] Removing /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages/motor-driver.egg-link (link to .)
+[0.717s] Invoked command in '/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver' returned '0': PYTHONPATH=/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build
+[0.718s] Invoking command in '/home/gardentech/Arduino_python_serial/Drive_ws/src/motor_driver': PYTHONPATH=/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build install --record /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/install.log --single-version-externally-managed install_data --force
+[0.879s] running egg_info
+[0.879s] writing ../../build/motor_driver/motor_driver.egg-info/PKG-INFO
+[0.879s] writing dependency_links to ../../build/motor_driver/motor_driver.egg-info/dependency_links.txt
+[0.879s] writing entry points to ../../build/motor_driver/motor_driver.egg-info/entry_points.txt
+[0.879s] writing requirements to ../../build/motor_driver/motor_driver.egg-info/requires.txt
+[0.879s] writing top-level names to ../../build/motor_driver/motor_driver.egg-info/top_level.txt
+[0.881s] reading manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[0.882s] writing manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[0.882s] running build
+[0.882s] running build_py
+[0.882s] creating /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build
+[0.882s] creating /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build/lib
+[0.882s] creating /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build/lib/motor_driver
+[0.882s] copying motor_driver/__init__.py -> /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build/lib/motor_driver
+[0.882s] copying motor_driver/motor_driver_node.py -> /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build/lib/motor_driver
+[0.882s] running install
+[0.883s] running install_lib
+[0.883s] creating /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[0.883s] copying /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build/lib/motor_driver/__init__.py -> /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[0.883s] copying /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build/lib/motor_driver/motor_driver_node.py -> /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[0.883s] byte-compiling /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver/__init__.py to __init__.cpython-310.pyc
+[0.883s] byte-compiling /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver/motor_driver_node.py to motor_driver_node.cpython-310.pyc
+[0.885s] running install_data
+[0.885s] copying resource/motor_driver -> /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/share/ament_index/resource_index/packages
+[0.885s] copying package.xml -> /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/share/motor_driver
+[0.885s] running install_egg_info
+[0.886s] Copying ../../build/motor_driver/motor_driver.egg-info to /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.1.0-py3.10.egg-info
+[0.887s] running install_scripts
+[0.901s] Installing motor_driver_node script to /home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/motor_driver
+[0.901s] writing list of installed files to '/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/install.log'
+[0.917s] Invoked command in '/home/gardentech/Arduino_python_serial/Drive_ws/src/motor_driver' returned '0': PYTHONPATH=/home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gardentech/Arduino_python_serial/Drive_ws/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/build install --record /home/gardentech/Arduino_python_serial/Drive_ws/build/motor_driver/install.log --single-version-externally-managed install_data --force

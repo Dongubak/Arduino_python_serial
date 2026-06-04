@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: motor-driver
+Version: 0.1.0
+Summary: ROS2 serial motor driver using binary protocol for Arduino L298N controller
+Home-page: UNKNOWN
+Maintainer: gardentech
+Maintainer-email: x001125@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+
