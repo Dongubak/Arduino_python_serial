@@ -4,5 +4,6 @@
 https://docs.ros.org/en/eloquent/Tutorials/Custom-ROS2-Interfaces.html
 
 
-3일차:
-https://drive.google.com/file/d/15AQi39A41_58WPkgB1VAILtDTc0U--lq/view?usp=drive_link
+3일차:    
+https://drive.google.com/file/d/15AQi39A41_58WPkgB1VAILtDTc0U--lq/view?usp=sharing
+                            
